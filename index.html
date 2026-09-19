@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)] pt-safe"><div class="bg-surface-container-low px-gutter-mobile py-1 flex items-center justify-center gap-space-xs text-center"><span class="material-symbols-outlined text-secondary text-[14px]">local_mall</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Buy Now, Pay Later In-Person · Klarna &amp; Afterpay</span></div><div class="h-20 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Menu" class="w-11 h-11 flex items-center justify-center text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">menu</span></button><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-headline-sm text-label-lg font-bold">RR</div><div class="flex flex-col"><span class="font-headline-sm text-label-lg font-bold tracking-tight text-on-surface leading-tight">Rebellious Roots</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary leading-none">Artistry Salon</span></div></div></div><div class="flex items-center gap-space-xs"><button aria-label="Shopping Bag" class="relative w-11 h-11 flex items-center justify-center text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-2 right-2 min-w-[16px] h-4 px-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px] flex items-center justify-center font-bold">2</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full bg-surface pt-20 pb-28"><div class="flex flex-col w-full">
+<!-- Dynamic Micro Notification / Pay Later Teaser -->
+<section class="px-margin-mobile pt-3 pb-1">
+<div class="bg-primary-fixed/40 rounded-xl p-3 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[17px]">payments</span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Flexible Financing In-Person</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">$50 - $4,000 via Klarna &amp; Afterpay</span>
+</div>
+</div>
+<a class="font-label-sm text-label-sm text-secondary uppercase tracking-wider pl-2 hover:underline shrink-0 font-bold" href="https://glossgenius.com/how-buynowpaylater-works">
+        Pre-Qualify
+      </a>
+</div>
+</section>
+<!-- Editorial Hero Section -->
+<section class="relative px-margin-mobile pt-2 pb-6">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-xl min-h-[460px] flex flex-col justify-end p-5">
+<!-- Background Image with Scrim Gradient -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="High-fashion close-up portrait of a woman with rebellious ice platinum blonde and vivid pastel silver lavender hair roots, delicate botanical sage foliage in soft focus, striking moody editorial natural light, cinematic vogue beauty photography" style="background-image: url('assets/stitch-image-1.jpg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/95 via-on-background/45 to-transparent"></div>
+<!-- Trust Badge Floating in Hero -->
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">4.9 (240+ Reviews)</span>
+<span class="text-on-surface-variant/40 text-[10px]">|</span>
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-primary font-bold">Verified</span>
+</div>
+<!-- Editorial Typography & CTAs -->
+<div class="relative z-10 flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed font-bold mb-1.5">Modern Color Craft</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-surface font-medium leading-tight mb-2">
+          Rebellious Artistry &amp; Lived-In Color
+        </h1>
+<p class="font-body-md text-body-md text-surface-variant/90 mb-5 leading-snug">
+          Specializing in transformative ice blonding, creative custom vivids, and bespoke botanical hair rituals.
+        </p>
+<div class="flex flex-col gap-2.5">
+<a class="w-full h-12 rounded-full bg-secondary text-on-secondary font-label-lg text-label-lg uppercase tracking-wider flex items-center justify-center gap-2 shadow-[0_4px_20px_rgba(182,0,89,0.4)] active:scale-[0.98] transition-transform" data-path="book-appointment" href="#">
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+<span>Book Your Appointment</span>
+</a>
+<a class="w-full h-11 rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-surface font-label-md text-label-md tracking-wider flex items-center justify-center gap-1.5 active:bg-surface-container-lowest/30 transition-colors" href="#services-menu">
+<span>Explore Service Menu</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Categories Filter Pills -->
+<section class="w-full pb-3">
+<div class="px-margin-mobile mb-2.5 flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Curated Offerings</h2>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Fall / Winter Menu</span>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto px-margin-mobile no-scrollbar scroll-smooth py-1" id="filter-pills">
+<button class="category-pill whitespace-nowrap h-8 px-4 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm transition-all shrink-0" data-cat="all">
+        All Offerings
+      </button>
+<button class="category-pill whitespace-nowrap h-8 px-4 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-all shrink-0" data-cat="blonding">
+        Blonding &amp; Balayage
+      </button>
+<button class="category-pill whitespace-nowrap h-8 px-4 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-all shrink-0" data-cat="vivids">
+        Creative Vivids
+      </button>
+<button class="category-pill whitespace-nowrap h-8 px-4 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-all shrink-0" data-cat="cuts">
+        Cuts &amp; Styling
+      </button>
+<button class="category-pill whitespace-nowrap h-8 px-4 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-all shrink-0" data-cat="treatments">
+        Botanical Rituals
+      </button>
+</div>
+</section>
+<!-- Featured Services List -->
+<section class="px-margin-mobile flex flex-col gap-3 py-2" id="services-menu">
+<!-- Card 1: Custom Blonding -->
+<div class="service-card bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3" data-category="blonding">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-[10px] uppercase font-bold tracking-wider">Most Coveted</span>
+<span class="font-body-sm text-body-sm text-primary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 3.5 hrs
+            </span>
+</div>
+<h3 class="font-headline-sm text-[19px] leading-snug text-on-surface font-semibold">Signature Custom Blonding &amp; Gloss</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Meticulous babylights, root smudges, and tailored toner formulation enriched with botanical bond repair.
+          </p>
+</div>
+<div class="w-20 h-20 rounded-lg overflow-hidden shrink-0 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Close up photograph of seamless radiant multidimensional cool-toned ash blonde balayage waves styled in a luxury boutique salon" src="assets/stitch-image-2.jpg"/>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 border-t-0 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-2.5 rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant">Starting from</span>
+<span class="font-headline-sm text-[20px] text-secondary font-bold leading-tight">$220</span>
+</div>
+<button class="book-service-btn px-4 h-9 rounded-full bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase flex items-center gap-1 active:scale-95 transition-transform">
+<span>Book Now</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Vivid Artistry -->
+<div class="service-card bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3" data-category="vivids">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[10px] uppercase font-bold tracking-wider">Artistry Exclusive</span>
+<span class="font-body-sm text-body-sm text-primary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 4.0 hrs
+            </span>
+</div>
+<h3 class="font-headline-sm text-[19px] leading-snug text-on-surface font-semibold">Vivid Color Artistry &amp; Transformation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Full canvas pre-lightening followed by custom-mixed high-impact jewel tones, neons, or split-dye palettes.
+          </p>
+</div>
+<div class="w-20 h-20 rounded-lg overflow-hidden shrink-0 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Stunning editorial avant-garde hair design showcasing vivid magenta, neon violet, and emerald hair dye blend with glossy healthy shine" src="assets/stitch-image-3.jpg"/>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-2.5 rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant">Starting from</span>
+<span class="font-headline-sm text-[20px] text-secondary font-bold leading-tight">$260</span>
+</div>
+<button class="book-service-btn px-4 h-9 rounded-full bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase flex items-center gap-1 active:scale-95 transition-transform">
+<span>Book Now</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Card 3: Bespoke Cut -->
+<div class="service-card bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3" data-category="cuts">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="font-body-sm text-body-sm text-primary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 60 min
+            </span>
+</div>
+<h3 class="font-headline-sm text-[19px] leading-snug text-on-surface font-semibold">Bespoke Haircut &amp; Luxury Blowout</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Precision dry-cutting or textured razor shaping, invigorating botanical scalp scrub, and signature finish.
+          </p>
+</div>
+<div class="w-20 h-20 rounded-lg overflow-hidden shrink-0 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Chic modern French textured bob haircut with soft curtain bangs styled with natural effortless volume in warm daylight" src="assets/stitch-image-4.jpg"/>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-2.5 rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant">Standard Rate</span>
+<span class="font-headline-sm text-[20px] text-secondary font-bold leading-tight">$85</span>
+</div>
+<button class="book-service-btn px-4 h-9 rounded-full bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase flex items-center gap-1 active:scale-95 transition-transform">
+<span>Book Now</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Card 4: Ritual Treatment -->
+<div class="service-card bg-surface-container-lowest rounded-xl p-4 shadow-sm flex flex-col gap-3" data-category="treatments">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="font-body-sm text-body-sm text-primary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 45 min
+            </span>
+</div>
+<h3 class="font-headline-sm text-[19px] leading-snug text-on-surface font-semibold">Rebellious Botanical Repair Ritual</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Deep cortex polypeptide infusion, warm herbal towel compress, scalp acupressure, and crystal gloss rinse.
+          </p>
+</div>
+<div class="w-20 h-20 rounded-lg overflow-hidden shrink-0 shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Spa luxury hair treatment bowl scene with fresh eucalyptus and rosemary botanicals, rich nourishing hair mask product, serene aesthetic" src="assets/stitch-image-5.jpg"/>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1 bg-surface-container-low/50 -mx-4 -mb-4 px-4 py-2.5 rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant">Add-On or Solo</span>
+<span class="font-headline-sm text-[20px] text-secondary font-bold leading-tight">$65</span>
+</div>
+<button class="book-service-btn px-4 h-9 rounded-full bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase flex items-center gap-1 active:scale-95 transition-transform">
+<span>Book Now</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Interactive Package Highlight Bento -->
+<section class="px-margin-mobile py-4">
+<div class="bg-gradient-to-br from-primary/10 via-surface-container to-secondary-fixed/30 rounded-2xl p-5 shadow-sm">
+<div class="flex items-center justify-between mb-3">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-[10px] uppercase font-bold tracking-wider">
+          Shop Packages
+        </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">savings</span> Save up to 25%
+        </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface mb-2 leading-snug">
+        Artistry Season Passes &amp; Bundles
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">
+        Lock in your quarterly maintenance, priority holiday slots, and unlimited botanical gloss treatments with easy monthly payments.
+      </p>
+<div class="bg-surface-container-lowest/80 backdrop-blur rounded-xl p-3.5 mb-4 flex items-center justify-between">
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface">The Platinum Revival Tier</h4>
+<span class="font-body-sm text-body-sm text-primary">3 Balayage Touch-ups + Free Rituals</span>
+</div>
+<div class="text-right">
+<span class="font-headline-sm text-[18px] text-secondary font-bold">$580</span>
+<span class="block font-label-sm text-[10px] text-on-surface-variant">or $145/mo</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<a class="flex-1 h-11 rounded-full bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase flex items-center justify-center gap-1.5 shadow-sm active:scale-98 transition-transform" data-path="shop-packages" href="#">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+<span>View All Packages</span>
+</a>
+<a class="px-3.5 h-11 rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md flex items-center justify-center" href="https://glossgenius.com/how-buynowpaylater-works">
+<span class="material-symbols-outlined text-[18px]">help_outline</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Meet The Collective / Stylists Carousel -->
+<section class="py-4">
+<div class="px-margin-mobile flex items-center justify-between mb-3">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">The Collective</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Meet Your Artists</h2>
+</div>
+<a class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-0.5" data-path="artist-team" href="#">
+<span>Full Team</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Stylist Horizontal Scroll -->
+<div class="flex items-stretch gap-3 overflow-x-auto px-margin-mobile no-scrollbar scroll-smooth pb-2">
+<!-- Artist 1 -->
+<div class="w-60 shrink-0 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 w-full">
+<img class="w-full h-full object-cover" data-alt="Portrait of an edgy artistic female hairstylist with pastel blonde hair, modern piercings, wearing stylish dark apron in a natural-lit salon studio" src="assets/stitch-image-6.jpg"/>
+<div class="absolute bottom-2 left-2 right-2 bg-surface/90 backdrop-blur-md rounded-lg p-2.5 shadow-sm">
+<h4 class="font-headline-sm text-[16px] text-on-surface font-bold leading-tight">Elena Vance</h4>
+<span class="font-label-sm text-[11px] text-secondary font-bold uppercase tracking-wider">Founder &amp; Master Blonding</span>
+</div>
+</div>
+<div class="p-3 flex flex-col justify-between flex-1 gap-2.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            12+ years pioneering lived-in balayage and platinum dimensional corrections.
+          </p>
+<a class="w-full h-8 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 font-bold active:bg-primary transition-colors" data-path="book-appointment" href="#">
+<span>Book With Elena</span>
+</a>
+</div>
+</div>
+<!-- Artist 2 -->
+<div class="w-60 shrink-0 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 w-full">
+<img class="w-full h-full object-cover" data-alt="Portrait of an avant-garde hair colorist specialist with creative colorful highlights and modern bohemian fashion in salon setting" src="assets/stitch-image-7.jpg"/>
+<div class="absolute bottom-2 left-2 right-2 bg-surface/90 backdrop-blur-md rounded-lg p-2.5 shadow-sm">
+<h4 class="font-headline-sm text-[16px] text-on-surface font-bold leading-tight">Kai Martinez</h4>
+<span class="font-label-sm text-[11px] text-primary font-bold uppercase tracking-wider">Vivid &amp; Texture Specialist</span>
+</div>
+</div>
+<div class="p-3 flex flex-col justify-between flex-1 gap-2.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Pulp Riot certified educator specializing in graphic color placement and bespoke bobs.
+          </p>
+<a class="w-full h-8 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 font-bold active:bg-primary transition-colors" data-path="book-appointment" href="#">
+<span>Book With Kai</span>
+</a>
+</div>
+</div>
+<!-- Artist 3 -->
+<div class="w-60 shrink-0 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 w-full">
+<img class="w-full h-full object-cover" data-alt="Warm friendly chic salon professional stylist with warm chestnut wavy hair holding shears in bright modern salon" src="assets/stitch-image-8.jpg"/>
+<div class="absolute bottom-2 left-2 right-2 bg-surface/90 backdrop-blur-md rounded-lg p-2.5 shadow-sm">
+<h4 class="font-headline-sm text-[16px] text-on-surface font-bold leading-tight">Sienna Cole</h4>
+<span class="font-label-sm text-[11px] text-secondary font-bold uppercase tracking-wider">Botanical Scalp &amp; Cuts</span>
+</div>
+</div>
+<div class="p-3 flex flex-col justify-between flex-1 gap-2.5">
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Dedicated to holistic hair wellness rituals, organic curl treatments, and layered fringe shapes.
+          </p>
+<a class="w-full h-8 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider flex items-center justify-center gap-1 font-bold active:bg-primary transition-colors" data-path="book-appointment" href="#">
+<span>Book With Sienna</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Client Love / Testimonial Spotlight -->
+<section class="px-margin-mobile py-4">
+<div class="bg-surface-container-low rounded-2xl p-5 shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1 text-amber-500">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">GlossGenius Client Review</span>
+</div>
+<blockquote class="font-headline-sm text-[18px] text-on-surface italic font-normal leading-relaxed">
+        “Rebellious Roots gave me the exact icy blonde of my dreams without damaging my fine hair. The botanical treatment was pure euphoria!”
+      </blockquote>
+<div class="flex items-center gap-2.5 pt-1">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md flex items-center justify-center font-bold">
+          MA
+        </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Morgan A.</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Signature Blonding · 2 weeks ago</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Studio Details & Policies Section -->
+<section class="px-margin-mobile pt-3 pb-8 flex flex-col gap-4">
+<div class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">storefront</span>
+</span>
+<div>
+<h3 class="font-headline-sm text-[18px] font-bold text-on-surface">Studio Sanctuary</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Private appointment suite &amp; botanical lab</span>
+</div>
+</div>
+<!-- Quick Info Grid -->
+<div class="grid grid-cols-2 gap-3 pt-1">
+<div class="bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">schedule</span> Hours
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface">Tue - Sat: 9am - 7pm</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Sun - Mon: Studio Closed</span>
+</div>
+<div class="bg-surface-container-low rounded-xl p-3 flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">location_on</span> Studio
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface">Suite 104, Arts District</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Complimentary Valet</span>
+</div>
+</div>
+<!-- Social & Booking Policy Link Band -->
+<div class="flex items-center justify-between pt-2 border-t-0 bg-surface-container-high/40 -mx-5 -mb-5 px-5 py-3 rounded-b-2xl">
+<div class="flex items-center gap-3">
+<a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-lowest text-secondary flex items-center justify-center shadow-sm hover:scale-105 transition-transform" href="https://www.instagram.com/rebelliousrootsartistrysalon" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</a>
+<a aria-label="Facebook" class="w-9 h-9 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shadow-sm hover:scale-105 transition-transform" href="http://www.facebook.com/rebelliousrootsartistry" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">public</span>
+</a>
+</div>
+<div class="flex items-center gap-3">
+<a class="font-label-sm text-[11px] text-on-surface-variant hover:text-on-surface" href="https://glossgenius.com/legal/user-terms">Terms</a>
+<span class="text-on-surface-variant/40 text-xs">·</span>
+<a class="font-label-sm text-[11px] text-on-surface-variant hover:text-on-surface" href="https://glossgenius.com/privacy">Privacy</a>
+</div>
+</div>
+</div>
+<!-- Mini Interactive Consultation Prompt -->
+<div class="bg-primary text-on-primary rounded-2xl p-5 shadow-lg flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed font-bold">Unsure What To Book?</span>
+<span class="material-symbols-outlined text-[20px] text-primary-fixed">auto_awesome</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-primary leading-tight">
+        Complimentary 15-Min Virtual Consultation
+      </h3>
+<p class="font-body-sm text-body-sm text-on-primary/80">
+        Send us your hair history and inspo photos before committing. We'll map your custom transformation journey and accurate estimate.
+      </p>
+<button class="w-full h-11 rounded-full bg-surface text-on-surface font-label-md text-label-md tracking-wider uppercase font-semibold flex items-center justify-center gap-1.5 shadow-sm active:scale-98 transition-transform mt-1" id="open-consult-btn">
+<span class="material-symbols-outlined text-[18px] text-secondary">chat_bubble</span>
+<span>Start Free Hair Consult</span>
+</button>
+</div>
+</section>
+<!-- Interactive Quick-Book Floating Toast Component -->
+<div class="fixed bottom-24 left-4 right-4 z-40 bg-surface-container-lowest/95 backdrop-blur-md rounded-2xl p-3 shadow-[0_10px_35px_-5px_rgba(0,0,0,0.18)] flex items-center justify-between transition-all duration-300 transform translate-y-32 opacity-0 pointer-events-none" id="booking-toast">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-bold truncate" id="toast-service-name">Service Selected</span>
+<span class="font-body-sm text-body-sm text-primary">Proceeding to GlossGenius schedule...</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high transition-colors shrink-0 ml-2" id="close-toast-btn">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+</div>
+<script>
+  // Filter pill interaction
+  const pills = document.querySelectorAll('.category-pill');
+  const cards = document.querySelectorAll('.service-card');
+
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => {
+        p.classList.remove('bg-secondary', 'text-on-secondary', 'shadow-sm');
+        p.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+      pill.classList.add('bg-secondary', 'text-on-secondary', 'shadow-sm');
+      pill.classList.remove('bg-surface-container-high', 'text-on-surface');
+
+      const cat = pill.getAttribute('data-cat');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-category') === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Booking Feedback Toast Simulation
+  const toast = document.getElementById('booking-toast');
+  const toastTitle = document.getElementById('toast-service-name');
+  const closeToast = document.getElementById('close-toast-btn');
+  const bookButtons = document.querySelectorAll('.book-service-btn');
+
+  let toastTimer;
+
+  function showToast(title) {
+    if (!toast) return;
+    toastTitle.textContent = title;
+    toast.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      hideToast();
+    }, 4000);
+  }
+
+  function hideToast() {
+    if (!toast) return;
+    toast.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+    toast.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+  }
+
+  bookButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const card = e.target.closest('.service-card');
+      const serviceTitle = card ? card.querySelector('h3').textContent.trim() : 'Service Selected';
+      showToast(serviceTitle);
+    });
+  });
+
+  if (closeToast) {
+    closeToast.addEventListener('click', hideToast);
+  }
+
+  const consultBtn = document.getElementById('open-consult-btn');
+  if (consultBtn) {
+    consultBtn.addEventListener('click', () => {
+      showToast('Virtual Consultation Started');
+    });
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-secondary"><div class="flex items-center justify-around h-20 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] gap-1 transition-colors text-secondary" data-path="salon-home" href="#"><span class="material-symbols-outlined text-[22px]">spa</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="service-menu" href="#"><span class="material-symbols-outlined text-[22px]">styler</span><span class="font-label-sm text-label-sm">Services</span></a><div class="flex items-center justify-center px-space-xs"><a class="flex items-center justify-center gap-1.5 px-4 h-11 rounded-full bg-secondary text-on-secondary shadow-[0_4px_16px_rgba(182,0,89,0.35)] active:scale-95 transition-transform" data-path="book-appointment" href="#"><span class="material-symbols-outlined text-[18px]">calendar_month</span><span class="font-label-md text-label-md tracking-wider uppercase">Book</span></a></div><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="artist-team" href="#"><span class="material-symbols-outlined text-[22px]">groups</span><span class="font-label-sm text-label-sm">Team</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="lookbook-portfolio" href="#"><span class="material-symbols-outlined text-[22px]">photo_library</span><span class="font-label-sm text-label-sm">Portfolio</span></a></div></nav></body></html>
